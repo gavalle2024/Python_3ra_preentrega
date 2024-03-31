@@ -1,11 +1,13 @@
 {% extends "base.html" %}
 
+{% block title %}<h1 class="text-center"> Entregables </h1>{% endblock %}
+
 {% load static %}
 
 {% block contenido %}
 
 <main class="container"></main>
-    <h1 class="text-center"> Entregables Encontrados </h1>
+    <h1 class="text-center"> Encontrados </h1>
     <div class="d-grid gap-2 col-12 mx-auto justify-content-md-end">
         <div>
             <a href="{% url 'entregables' %}">

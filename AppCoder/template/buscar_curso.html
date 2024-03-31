@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 
-{% load static %}
+{% block title %}<h1 class="text-center"> Cursos </h1>{% endblock %}
 
-{% block title %} Alumnos {% endblock %}
+{% load static %}
 
 {% block contenido %}
 <div class="row">
     <div class="col-md-4 offset-md-4">
-        <h1 class="text-center"> Buscar Curso </h1>
+        <h1 class="text-center"> Buscar </h1>
         <div class="card bg-dark text-white">
             <div class="card-body">
                 <form action="buscar" method="GET">
