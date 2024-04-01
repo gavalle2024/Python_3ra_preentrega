@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Clase18.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["D:/Users/Gustavo/Documents/Programacion/PYTHON/CODERHOUSE - Curso Python-Django/Clase18/Clase18/AppCoder/template/"],
+        'DIRS': ["d:/Users/Gustavo/Documents/Programacion/PYTHON/CODERHOUSE - Curso Python-Django/Clase18/Clase18/Python_3ra_preentrega/AppCoder/template/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
